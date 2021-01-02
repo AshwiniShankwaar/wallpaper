@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addtoringtone"
+        android:text="Add as ringtone"
+        android:layout_margin="5dp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addtoalarm"
+        android:text="Add as alarm"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/addtoringtone"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addtonotification"
+        android:text="Add as notification"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/addtoalarm"
+        android:textSize="18sp"
+        />
+
+</RelativeLayout>

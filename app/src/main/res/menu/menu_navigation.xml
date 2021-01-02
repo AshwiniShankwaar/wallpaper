@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Wallpaper"
+        android:title="Wallpaper"
+        android:icon="@drawable/wallpaper"/>
+    <item android:id="@+id/ringtone"
+        android:title="Ringtone"
+        android:icon="@drawable/ringtone"/>
+    <item android:id="@+id/fonts"
+        android:title="Fonts"
+        android:icon="@drawable/font"/>
+
+</menu>

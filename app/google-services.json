@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "191855397787",
+    "firebase_url": "https://wallpaper-ed943.firebaseio.com",
+    "project_id": "wallpaper-ed943",
+    "storage_bucket": "wallpaper-ed943.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191855397787:android:23f390f4b9d58256adaf3e",
+        "android_client_info": {
+          "package_name": "com.nanb.wallpaper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191855397787-57tpgn4muv2voj683lqvtbvbu3tf5l72.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKXY5YvIpDPMB0VdnOyQUeOPX-CsAV0mU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191855397787-57tpgn4muv2voj683lqvtbvbu3tf5l72.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

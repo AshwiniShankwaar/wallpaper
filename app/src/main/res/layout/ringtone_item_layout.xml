@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:id="@+id/music"
+            android:src="@drawable/music"
+            android:scaleType="centerCrop"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/pause"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_pause"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:padding="2dp"
+            android:maxLines="1"
+            android:id="@+id/name"
+            android:text="oaubciubiuwbiububucbqiubqwiubcuiqwbuicui"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="tag"
+            android:textSize="14sp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/tag"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:maxLines="1"
+                android:id="@+id/size"
+                android:text="20mb"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="14sp"
+                android:layout_marginLeft="10dp"
+                android:maxLines="1"
+                android:id="@+id/totaldownload"
+                android:text="5"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:padding="2dp"
+        android:id="@+id/download"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_download"
+        android:background="@drawable/download_backgroung"
+        />
+</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setwallaper"
+        android:text="Wallpaper"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lockwallpaper"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:visibility="gone"
+        android:layout_below="@+id/setwallaper"
+        android:text="Lock screen wallpaper"
+        android:textSize="20sp"
+        />
+</RelativeLayout>
